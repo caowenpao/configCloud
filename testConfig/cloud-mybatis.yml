@@ -8,7 +8,7 @@ spring:
   application:
     name: cloud-mybatis
 #datasource config
-jdbc:
+db:
   driverClassName: oracle.jdbc.OracleDriver
   url: jdbc:oracle:oci:@HOES_DEV
   username: sh_schp_owschp
