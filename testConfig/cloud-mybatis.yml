@@ -1,0 +1,26 @@
+server:
+  port: 8222
+ eureka:
+   client:
+     serviceUrl:
+       defaultZone: http\://127.0.0.1\:8761/eureka/
+
+spring:
+  application:
+    name: cloud-mybatis-test
+#datasource config
+jdbc:
+  driverClassName: oracle.jdbc.OracleDriver
+  url: jdbc:oracle:oci:@HOES_DEV
+  username: sh_schp_owschp
+  password: test
+  maxWait: 2000
+  minPoolSize: 1
+  maxPoolSize: 1
+  initialSize: 1
+
+#mybatis config
+mybatis:
+  typeAliasesPackage: demo.dao
+  mapperLocations: classpath:mapper/*.xml
+  configLocation: classpath:mybatis/sqlMapConfig.xml
