@@ -7,7 +7,7 @@ eureka:
 
 spring:
   application:
-    name: cloud-mybatis-test
+    name: cloud-mybatis
 #datasource config
 jdbc:
   driverClassName: oracle.jdbc.OracleDriver
