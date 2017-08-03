@@ -23,3 +23,7 @@ mybatis:
   typeAliasesPackage: demo.dao
   mapperLocations: classpath:mapper/*.xml
   configLocation: classpath:mybatis/sqlMapConfig.xml
+  #Feign中已经依赖了Hystrix
+ feign:
+   hystrix:
+     enabled: true
