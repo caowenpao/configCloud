@@ -27,3 +27,4 @@ mybatis:
  feign:
    hystrix:
      enabled: true
+from: mybatis
