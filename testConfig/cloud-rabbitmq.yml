@@ -9,6 +9,6 @@ spring:
     name: cloud-rabbitmq
   rabbitmq:
     host: 127.0.0.1
-    port: 5671
+    port: 5672
     username: user2
     password: 123456
